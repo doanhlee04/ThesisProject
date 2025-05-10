@@ -2,29 +2,29 @@ mt5_path = "/home/doanhlee/Projects/ThesisProject/uni-sign/pretrained_weight/mt5
 
 # label paths
 train_label_paths = {
-                    "MS-ASL": "/home/doanhlee/Projects/ThesisProject/uni-sign/dataset/MS-ASL/MSASL_train.json",
-                    "WLASL": "/home/doanhlee/Projects/ThesisProject/uni-sign/ataset/WLASL/train_labels.train"
+                    "MS-ASL": "/kaggle/input/ms-asl/MS-ASL/MSASL_train.json",
+                    "WLASL": "/kaggle/input/wl-asl/WLASL/train_labels.train"
                     }
 
 dev_label_paths = {
-    "MS-ASL": "/home/doanhlee/Projects/ThesisProject/uni-sign/dataset/MS-ASL/MSASL_val.json",
-    "WLASL": "/home/doanhlee/Projects/ThesisProject/uni-sign/dataset/WLASL/val_labels_dev"
+    "MS-ASL": "/kaggle/input/ms-asl/MS-ASL/MSASL_val.json",
+    "WLASL": "/kaggle/input/wl-asl/WLASL/val_labels.dev"
 }
 
 test_label_paths = {
-                    "MS-ASL": "/home/doanhlee/Projects/ThesisProject/uni-sign/dataset/MS-ASL/MSASL_test.json",
-                    "WLASL": "/home/doanhlee/Projects/ThesisProject/uni-sign/dataset/WLASL/test_labels.test"
+                    "MS-ASL": "/kaggle/input/wl-asl/WLASL/MSASL_test.json",
+                    "WLASL": "/kaggle/input/wl-asl/WLASL/test_labels.test"
                     }
 
 
 # video paths
 rgb_dirs = {
-            "MS-ASL": "/home/doanhlee/Projects/ThesisProject/uni-sign/dataset/MS-ASL/rgb_format",
-            "WLASL": "/home/doanhlee/Projects/ThesisProject/uni-sign/dataset/WLASL/rgb_format"
+            "MS-ASL": "/kaggle/input/ms-asl/MS-ASL/MSASL_test.json/rgb_format",
+            "WLASL": "/kaggle/input/wl-asl/WLASL/rgb_format"
             }
 
 # pose paths
 pose_dirs = {
-            "MS-ASL": "/home/doanhlee/Projects/ThesisProject/uni-sign/dataset/MS-ASL/pose_format",
-            "WLASL": "/home/doanhlee/Projects/ThesisProject/uni-sign/dataset/WLASL/pose_format"
+            "MS-ASL": "/kaggle/input/wl-asl/WLASL/pose_format",
+            "WLASL": "/kaggle/input/wl-asl/WLASL/pose_format"
             }
